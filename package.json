@@ -1,0 +1,18 @@
+{
+	"name": "node-nextcloud-talk-bot",
+	"description": "",
+	"version": "0.1.4",
+	"author": "Henning Bopp <henning.bopp+nct@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"eventemitter3": "^4.0.0",
+		"js-htmlencode": "^0.3.0",
+		"mathjs": "^6.6.1",
+		"node-fetch": "^2.6.0"
+	},
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"devDependencies": {}
+}
