@@ -121,6 +121,10 @@ boppy.onText(/^#wiki(?: (?<language>|fr|de|es|ja|ru|it|zh|pt|ar|fa|pl|nl|id|uk|h
 //   x-4
 //   x-nine
 
+// Important Note:
+// In this implementation ALL channels share ONE instance of the mathjs library (${parser})!
+// This will also share symbols, variables and functions!
+
 const math = require('mathjs');
 const parser = math.parser();
 

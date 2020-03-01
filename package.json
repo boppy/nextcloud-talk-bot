@@ -1,7 +1,7 @@
 {
   "name": "nextcloud-talk-bot",
   "description": "This is a Node.js module to interact with the [Rest-API](https://nextcloud-talk.readthedocs.io/en/latest/) provided by [Nextcloud](https://nextcloud.com).",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "author": "Henning Bopp <henning.bopp+nct@gmail.com>",
   "license": "MIT",
   "dependencies": {
