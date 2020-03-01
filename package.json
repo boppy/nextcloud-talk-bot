@@ -1,18 +1,37 @@
 {
-	"name": "node-nextcloud-talk-bot",
-	"description": "",
-	"version": "0.1.4",
-	"author": "Henning Bopp <henning.bopp+nct@gmail.com>",
-	"license": "MIT",
-	"dependencies": {
-		"dotenv": "^8.2.0",
-		"eventemitter3": "^4.0.0",
-		"js-htmlencode": "^0.3.0",
-		"mathjs": "^6.6.1",
-		"node-fetch": "^2.6.0"
-	},
-	"engines": {
-		"node": ">=10.0.0"
-	},
-	"devDependencies": {}
+  "name": "nextcloud-talk-bot",
+  "description": "This is a Node.js module to interact with the [Rest-API](https://nextcloud-talk.readthedocs.io/en/latest/) provided by [Nextcloud](https://nextcloud.com).",
+  "version": "0.1.4",
+  "author": "Henning Bopp <henning.bopp+nct@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eventemitter3": "^4.0.0",
+    "js-htmlencode": "^0.3.0",
+    "mathjs": "^6.6.1",
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "devDependencies": {},
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boppy/nextcloud-talk-bot.git"
+  },
+  "keywords": [
+    "nextcloud-talk",
+    "bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/boppy/nextcloud-talk-bot/issues"
+  },
+  "homepage": "https://github.com/boppy/nextcloud-talk-bot#readme"
 }

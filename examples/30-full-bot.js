@@ -124,22 +124,6 @@ boppy.onText(/^#wiki(?: (?<language>|fr|de|es|ja|ru|it|zh|pt|ar|fa|pl|nl|id|uk|h
 const math = require('mathjs');
 const parser = math.parser();
 
-parser.createUnit({
-        mpg: {
-            prefixes: 'long',
-            definition: '1 mi/gal'
-        },
-        stupidity: {},
-        lp100k: {
-            definition: '100 / ((1 mpg * 1.6) / 4.546)',
-            prefixes: 'long'
-        }
-    },
-    {
-        override: true
-    });
-
-
 boppy.onText(/^#calc (?<calc>.*)$/, (msg, calc) => {
     let res;
     try {
