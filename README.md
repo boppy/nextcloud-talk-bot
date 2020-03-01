@@ -43,7 +43,7 @@ boppy.onText(/^#answer ((['"])(?<q1>.*?)(\2)|(?<q2>[^"']\S*)) (?<a>.*)$/, (msg, 
 bot.startPolling();
 ```
 
-See [examples directory][exmples] for some examples on using this module.
+See [examples directory](https://github.com/boppy/nextcloud-talk-bot/tree/master/examples) for some examples on using this module.
 
 ## Origin
 
@@ -75,5 +75,5 @@ As soon as there is one, I'll also be absolutely happy to thank any contributor!
 
 Copyright © 2020 Henning Bopp <henning.bopp@gmail.com>
 
-[example]:https://www.gibthub.com/boppy/nextcloud-talk-bot
+[example]:https://github.com/boppy/nextcloud-talk-bot/tree/master/examples
 [yagop_repo]:https://github.com/yagop/node-telegram-bot-api
