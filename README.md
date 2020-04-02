@@ -12,7 +12,7 @@ npm install nextcloud-talk-bot
 
 ```js
 // Import Class
-const NextcloudTalkBot = require('nextlcloud-talk-bot');
+const NextcloudTalkBot = require('nextcloud-talk-bot');
 
 // Create instance w/ bot login data
 const bot = new NextcloudTalkBot({
