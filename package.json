@@ -8,7 +8,7 @@
     "dotenv": "^8.2.0",
     "eventemitter3": "^4.0.0",
     "js-htmlencode": "^0.3.0",
-    "mathjs": "^6.6.1",
+    "mathjs": "^7.5.1",
     "node-fetch": "^2.6.0"
   },
   "engines": {
